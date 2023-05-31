@@ -5,7 +5,10 @@ public class Cafeteria {
 	String direccion;
 	String RRSS;
 	java.util.ArrayList<Cafe> listaCafes;
-	private ArrayList<Brownie> brownies = new ArrayList<Brownie>();
+	private ArrayList<Producto__Brownie_> producto__Brownie_s = new ArrayList<Producto__Brownie_>();
+	public Cliente __cliente_s;
+	public Trabajador __trabajador_s;
+	public Nuevo_Producto__Galletas _nuevoProducto__Galleta_s;
 
 	public Cafeteria(String nombre, String direccion, String RRSS, java.util.ArrayList<Cafe> cafes) {
 		throw new UnsupportedOperationException();

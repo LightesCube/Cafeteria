@@ -1,8 +1,9 @@
 public class Cafe {
-	private double agua;
 	private String tamano;
 	private double gramos;
 	private double mostrarCafe;
+	private float precio;
+	private double agua;
 
 	public Cafe(double gramos, double agua, String tamano) {
 		throw new UnsupportedOperationException();
@@ -16,12 +17,28 @@ public class Cafe {
 		throw new UnsupportedOperationException();
 	}
 
-	public void setAgua(double agua) {
-		this.agua = agua;
+	public float getPrecio() {
+		return this.precio;
+	}
+
+	public void setPrecio(float precio) {
+		this.precio = precio;
 	}
 
 	public double getAgua() {
 		return this.agua;
+	}
+
+	public void setAgua(double agua) {
+		this.agua = agua;
+	}
+
+	public void getAttribute() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void setAttribute(Object attribute) {
+		throw new UnsupportedOperationException();
 	}
 
 	public void setTamano(String tamano) {
