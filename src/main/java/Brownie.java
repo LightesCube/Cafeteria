@@ -34,4 +34,5 @@ public class Brownie {
 	public void setAttribute(Object attribute) {
 		throw new UnsupportedOperationException();
 	}
+
 }
