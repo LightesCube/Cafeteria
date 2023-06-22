@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>cafeteria</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -15,6 +16,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+        <groupId>com.opencsv</groupId>
+        <artifactId>opencsv</artifactId>
+        <version>4.1</version>
+            </dependency>
+        </dependencies>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>

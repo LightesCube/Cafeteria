@@ -17,4 +17,5 @@ public class Trabajador {
 	public void comprobarTrabajador(barista trabajador, Object mesero, Object cocinero) {
 		throw new UnsupportedOperationException();
 	}
+
 }
